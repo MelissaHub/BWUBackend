@@ -9,6 +9,7 @@ const projectSchema = new mongoose.Schema({
      // How to set this up?
     // projectid: String,
     // userid: String
+    //parse
     
 });
 
