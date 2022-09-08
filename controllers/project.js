@@ -28,7 +28,7 @@ router.delete('/:id', (req, res)=>{
 });
 // Update
 router.put('/:id', (req, res)=>{
-    Project.findByIdAndUpdate(req.params.id, req.body, {new:true}, (err, updatedUser)=>{
+    Project.findByIdAndUpdate(req.params.id, req.body, {new:true}, (err, updatedProject)=>{
         res.json(updatedProject);
     });
 });
