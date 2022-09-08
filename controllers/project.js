@@ -1,13 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const Project = require('../models/project.js');
+const projectData = require('../utilities/projectdata.js')
 
 // Remember INDUCES
 
 // Seeding...
 router.get('/seed', async (req, res) => {
-    await Inventory.deleteMany({})
-    await Inventory.create(inventoryData);
+    await Project.deleteMany({})
+    await Project.create(projectData);
     // res.redirect("/api/v1/music")
 });
 
