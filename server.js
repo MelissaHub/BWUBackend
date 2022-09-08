@@ -4,8 +4,8 @@ const mongoose = require('mongoose')
 require('dotenv').config()
 const cors = require('cors')
 // const User = require('./models/user.js')
-const Project = require('./models/project.js')
-const projectData = require('./utilities/projectData.js')
+// const Project = require('./models/project.js')
+// const projectData = require('./utilities/projectdata.js')
 // const userData = require('./utilities/userData.js')
 
 
