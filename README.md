@@ -60,3 +60,11 @@ Backend routes for the App. Goal is to make a Pitch site for any and all pitches
 
   ## in folder run nodemon
 
+
+
+  
+## Heroku link (pushing difificulties)
+https://bwuback.herokuapp.com/project
+
+## Credits and Compliments
+I learned so much on my own and through my classmates and teachers.This project was very difficult, but now knowing that I'm capable to have a functioning website from scratch is a skill I never thought I would ever be. The goal is to touch up the format, art, and stylize the buttons. Also I aim to simply organize the syntax and find a way to make the process as simple as it gets. All in all, I've learned pacitence and comradery. I'm so greatful to have such a friendly class and 
