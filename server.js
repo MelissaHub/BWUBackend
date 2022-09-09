@@ -3,10 +3,6 @@ const express = require('express')
 const mongoose = require('mongoose')
 require('dotenv').config()
 const cors = require('cors')
-// const User = require('./models/user.js')
-// const Project = require('./models/project.js')
-// const projectData = require('./utilities/projectdata.js')
-// const userData = require('./utilities/userData.js')
 
 
 // Environment Variables
@@ -37,10 +33,10 @@ app.use(express.static('public')) // we need to tell express to use the public d
 
 // Routes
 // const userController = require('./controllers/user.js')
-const projectController = require('./controllers/project.js');
+const projectController = require('./controllers/project.js')
 
 // app.use('/user', userController);
-app.use('/project', projectController);
+app.use('/project', projectController)
 
 
 // app.get('/', (req, res) => {
